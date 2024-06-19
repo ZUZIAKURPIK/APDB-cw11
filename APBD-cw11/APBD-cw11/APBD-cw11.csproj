@@ -4,12 +4,20 @@
         <TargetFramework>net8.0</TargetFramework>
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
-        <RootNamespace>APBD_cw11</RootNamespace>
+        <RootNamespace>WebApplication1</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="JWT" Version="10.1.1" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.6" />
         <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6"/>
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="7.6.1" />
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.6.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="APBD-cw11.csproj.user" />
     </ItemGroup>
 
 </Project>
